@@ -84,7 +84,7 @@ console.log(typeof message);// 输出 string
 console.log(typeof(message));// 输出 string
 ```
 - typeof 运算符加上圆括号，会像是函数，而不是运算符，并不建议这种写法。    
-![](http://a3.qpic.cn/psb?/V118JuTr0BKcy7/yvGK68BGwbJIbQQZgWBM**.*.UhdX5StOTfrjRzYGuc!/m/dD4BAAAAAAAA&bo=aAFuAQAAAAADByQ!&rf=photolist)
+![运算符结果示意图](http://a3.qpic.cn/psb?/V118JuTr0BKcy7/yvGK68BGwbJIbQQZgWBM**.*.UhdX5StOTfrjRzYGuc!/m/dD4BAAAAAAAA&bo=aAFuAQAAAAADByQ!&rf=photolist)
 ### 算数运算符  
 ```js
 var num1 = 30;
