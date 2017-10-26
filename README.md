@@ -76,6 +76,15 @@ var bool = Boolean('this is text');
 console.log(typeof bool);// boolean
 ```
 >隐式类型转换的效率高于显示类型转换  
+### typeof运算符
+- 由于 JavaScript 是弱类型/松散类型的，因此需要有一种手段来检测给定变量的数据类型。typeof 运算符就是负责提供这方面信息，如下述代码:  
+```js
+var message = "this is message";
+console.log(typeof message);// 输出 string
+console.log(typeof(message));// 输出 string
+```
+- typeof 运算符加上圆括号，会像是函数，而不是运算符，并不建议这种写法。    
+![](http://a3.qpic.cn/psb?/V118JuTr0BKcy7/yvGK68BGwbJIbQQZgWBM**.*.UhdX5StOTfrjRzYGuc!/m/dD4BAAAAAAAA&bo=aAFuAQAAAAADByQ!&rf=photolist)
 ### 算数运算符  
 ```js
 var num1 = 30;
